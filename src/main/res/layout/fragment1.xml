@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="http://apis.data.go.kr/B550928/dissForecastInfoSvc/getDissForecastInfo?serviceKey=MPUrs2RQZd%2Fydzk6cTB3eQCsjeanGYrtp9Up6DrZW4xY1rxNFSTiVSLBkhSWSnOSklEdHQMxx3huA87az8gv0Q%3D%3D&#38;numOfRows=10&#38;pageNo=1&#38;type=json&#38;dissCd=1&#38;znCd="
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
